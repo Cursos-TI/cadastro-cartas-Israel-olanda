@@ -92,9 +92,9 @@ int main() {
   printf("População: %d\n", populacao2);
   printf("Pib: %.2f Milhões\n", pib2);
   printf("Área: %.2f km²\n", area2);
-  printf("Pontos Turisticos: %d\n\n", pontosTuristicos2);
+  printf("Pontos Turisticos: %d\n", pontosTuristicos2);
   printf("Densidade Demográfica: %.2f\n", densidadeDemografica2);
-  printf("Pib per cabita: %.2f\n", pibPerCapita2);
+  printf("Pib per cabita: %.2f\n\n", pibPerCapita2);
 
 
 

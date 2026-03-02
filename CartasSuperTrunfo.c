@@ -97,19 +97,14 @@ int main() {
   printf("Densidade Demográfica: %.2f\n", densidadeDemografica2);
   printf("Pib per cabita: %.2f\n\n", pibPerCapita2);
 
-  printf("agora iremos calcular o super-poder de cada carta informar a campeão da batalha!\n");
-  float superPoder1 = pib + populacao + area + pontosTuristicos + pibPerCapita;
-  float superPoder2 = pib2 + populacao2 + area2 + pontosTuristicos2 + pibPerCapita2;
-  printf ("Comparação de cartas \n");
-  printf ("carta 1: \n");
-  printf ("População: %d\n", populacao > populacao2 );
-  printf ("area: %d\n", area > area2 );
-  printf ("pib: %d\n", pib > pib2 );
-  printf ("pontos turisticos: %d\n", pontosTuristicos > pontosTuristicos2 );
-  printf ("pontos turisticos: %d\n", pibPerCapita > pibPerCapita2 );
-  printf ("Super-poder: %d\n", superPoder1 > superPoder2);
-  printf ("Densidade demografica: %d\n", densidadeDemografica < densidadeDemografica2);
+  //disputa de comparação das cartas
+  if (pibPerCapita > pibPerCapita2) {
+    printf("A carta 1 venceu, parabéns para a cidade de: %s\n", nomeCidade);
+  } else {
+    printf("A carta 2 venceu, parabéns para a cidade de: %s\n\n", nomeCidade2);
+  }
 
+ 
   
 return 0;
 } 
